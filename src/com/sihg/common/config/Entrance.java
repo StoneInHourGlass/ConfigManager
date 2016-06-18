@@ -19,6 +19,7 @@ public class Entrance extends JFrame {
     setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     setSize(640, 480);
     //test继续吧
+    // TODO 宝宝:应该再做些初始化什么的
   }
 
   public static void main(String[] args) {
