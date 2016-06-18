@@ -18,6 +18,7 @@ public class Entrance extends JFrame {
     // 关闭的时候 同时结束进程
     setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     setSize(640, 480);
+    //test继续吧
   }
 
   public static void main(String[] args) {
