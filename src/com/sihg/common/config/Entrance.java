@@ -20,6 +20,7 @@ public class Entrance extends JFrame {
     setSize(640, 480);
     //test继续吧
     // TODO 宝宝:应该再做些初始化什么的
+    //test学习Github测试的
   }
 
   public static void main(String[] args) {
