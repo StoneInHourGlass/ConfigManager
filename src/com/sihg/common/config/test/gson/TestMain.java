@@ -18,7 +18,7 @@ public class TestMain {
 
 	public static void main(String[] args) {
 		String fileName = "E:/Github/ConfigManager/src/com/sihg/common/config/test/gson/data.json";
-		// 读取json文件，保存到String json中
+		// 读取json文件，保存到String json中~~
 		// String fileName="c:/temp/data.json";
 		File file = new File(fileName);
 		StringBuffer sb = new StringBuffer();
