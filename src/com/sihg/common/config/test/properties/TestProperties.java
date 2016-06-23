@@ -14,11 +14,11 @@ public class TestProperties {
     System.out.println("Locale.getDefault():[" + Locale.getDefault() + "]");
     System.out.println("Locale.JAPANESE:[" + Locale.JAPANESE + "] Locale.JAPAN:[" + Locale.JAPAN + "]");
     Locale.setDefault(Locale.JAPAN);
-    ResourceBundle rb = ResourceBundle.getBundle("text");
-    System.out.println("edit:[" + rb.getString("edit") + "]");
+    ResourceBundle rb = ResourceBundle.getBundle("text", Locale.CHINA);
+    System.out.println("edit:[" + rb.getString("file") + "]");
     InputStream in;
     try {
-      in = new BufferedInputStream(new FileInputStream("E:/WorkSpaces/GitHub/ConfigManager/test.properties"));
+      in = new BufferedInputStream(new FileInputStream("E:/GitHub/ConfigManager/test.properties"));
       Properties p = new Properties();
       p.load(in);
       System.out.println();
