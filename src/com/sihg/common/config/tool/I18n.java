@@ -8,10 +8,6 @@ import java.util.ResourceBundle;
 public class I18n {
   private static Map<String, ResourceBundle> rbMap = new HashMap<String, ResourceBundle>();
 
-  private I18n() {
-
-  }
-
   public static String text(String key) {
     return text(key, Locale.getDefault());
   }
@@ -24,7 +20,7 @@ public class I18n {
       rbMap.put(l.toString(), rb);
     }
     if (rb.containsKey(key)) {
-      result = rb.getString(key);
+      result = rb.getString(key).trim();
     }
     return result;
   }
