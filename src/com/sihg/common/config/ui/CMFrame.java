@@ -20,9 +20,9 @@ public class CMFrame extends JFrame {
    * 主窗口实例化方法
    */
   public CMFrame() {
-    String lookAndFeel = "com.sun.java.swing.plaf.windows.WindowsLookAndFeel";
     try {
-      UIManager.setLookAndFeel(lookAndFeel);
+      // 设置界面样式 TODO 这里可以使用配置
+      UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     } catch (InstantiationException e) {
