@@ -11,12 +11,12 @@ import java.util.ResourceBundle;
 
 public class TestProperties {
   public static void main(String[] args) {
-    System.out.println("Locale.getDefault():[" + Locale.getDefault() + "]");System.out.println("看看能不能出现冲突");
-    System.out.println("Locale.JAPANESE:[" + Locale.JAPANESE + "] Locale.JAPAN:[" + Locale.JAPAN + "]");System.out.println("看看能不能出现冲突");
-    Locale.setDefault(Locale.JAPAN);System.out.println("看看能不能出现冲突");
-    ResourceBundle rb = ResourceBundle.getBundle("text");System.out.println("看看能不能出现冲突");
-    System.out.println("edit:[" + rb.getString("edit") + "]");System.out.println("看看能不能出现冲突");
-    InputStream in;
+	    System.out.println("Locale.getDefault():[" + Locale.getDefault() + "]");System.out.println("冲突测试");
+	    System.out.println("Locale.JAPANESE:[" + Locale.JAPANESE + "] Locale.JAPAN:[" + Locale.JAPAN + "]");System.out.println("冲突测试");
+	    Locale.setDefault(Locale.JAPAN);System.out.println("冲突测试");
+	    ResourceBundle rb = ResourceBundle.getBundle("text");System.out.println("冲突测试");
+	    System.out.println("edit:[" + rb.getString("edit") + "]");System.out.println("冲突测试");
+	    InputStream in;System.out.println("冲突测试");
     try {
       in = new BufferedInputStream(new FileInputStream("E:/WorkSpaces/GitHub/ConfigManager/test.properties"));
       Properties p = new Properties();
