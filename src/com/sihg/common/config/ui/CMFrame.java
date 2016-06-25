@@ -17,7 +17,7 @@ public class CMFrame extends JFrame {
   private static final long serialVersionUID = 1L;
 
   /**
-   * 主窗口实例化方法
+   * 主窗口实例化方法  
    */
   public CMFrame() {
     try {

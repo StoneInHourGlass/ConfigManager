@@ -24,7 +24,7 @@ public class TestProperties {
     InputStream in;
     System.out.println("冲突测试");
     try {
-      in = new BufferedInputStream(new FileInputStream("E:/WorkSpaces/GitHub/ConfigManager/test.properties"));
+      in = new BufferedInputStream(new FileInputStream("E:/GitHub/ConfigManager/test.properties"));
       Properties p = new Properties();
       p.load(in);
       System.out.println();
