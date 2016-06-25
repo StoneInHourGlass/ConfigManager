@@ -20,7 +20,7 @@ public class I18n {
       rbMap.put(l.toString(), rb);
     }
     if (rb.containsKey(key)) {
-      result = rb.getString(key);
+      result = rb.getString(key).trim();
     }
     return result;
   }
