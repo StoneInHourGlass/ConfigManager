@@ -5,6 +5,11 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.ResourceBundle;
 
+/**
+ * 国际化工具
+ * @author Administrator
+ *
+ */
 public class I18n {
   private static Map<String, ResourceBundle> rbMap = new HashMap<String, ResourceBundle>();
 
