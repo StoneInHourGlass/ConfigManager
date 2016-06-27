@@ -22,8 +22,7 @@ public class TestMain {
 		// String fileName="c:/temp/data.json";
 		File file = new File(fileName);
 		StringBuffer sb = new StringBuffer();
-		String sJson;
-		String line;
+		String  line;
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new FileReader(file));
