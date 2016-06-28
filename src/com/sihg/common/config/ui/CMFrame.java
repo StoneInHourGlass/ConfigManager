@@ -36,6 +36,7 @@ public class CMFrame extends JFrame {
 		setSize(800, 600);
 		setMinimumSize(new Dimension(640, 480));
 		setTitle(I18n.text("title"));
+		//test
 		setJMenuBar(new CMMenuBar());
 	}
 }
