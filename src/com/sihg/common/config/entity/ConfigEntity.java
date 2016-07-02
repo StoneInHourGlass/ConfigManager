@@ -8,6 +8,6 @@ public class ConfigEntity {
 	private String key;
 	/** 默认的字符串型的value */
 	private String value;
-	/** 值得数据类型是什么 */
+	/** 值的数据类型是什么 */
 	private String type;
 }
