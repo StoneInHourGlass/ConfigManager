@@ -1,4 +1,4 @@
-package com.sihg.common.config.ui;
+package com.sihg.common.config.ui.menu;
 
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
@@ -15,10 +15,7 @@ public class CMMenuBar extends JMenuBar {
 
   public CMMenuBar() {
     JMenu jmFile = new JMenu(I18n.text("file"));
-    jmFile.add(new JMenuItem("新建"));
-    jmFile.add(new JMenuItem("打开"));
-    jmFile.add(new JMenuItem("退出"));
-    jmFile.addSeparator();//添加分割线
+    jmFile.addSeparator();// 添加分割线
     add(jmFile);
   }
 }

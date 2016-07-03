@@ -1,4 +1,4 @@
-package com.sihg.common.config.entity;
+package com.sihg.common.config.ent;
 
 /**
  * 掩码位说明实体<br>

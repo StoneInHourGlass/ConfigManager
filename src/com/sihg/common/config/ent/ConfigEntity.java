@@ -1,4 +1,4 @@
-package com.sihg.common.config.entity;
+package com.sihg.common.config.ent;
 
 import java.util.List;
 

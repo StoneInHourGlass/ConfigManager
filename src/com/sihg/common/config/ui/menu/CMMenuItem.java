@@ -1,4 +1,4 @@
-package com.sihg.common.config.ui;
+package com.sihg.common.config.ui.menu;
 
 import java.awt.event.ActionListener;
 
@@ -12,15 +12,11 @@ public abstract class CMMenuItem extends JMenuItem implements ActionListener {
   /**  */
   private static final long serialVersionUID = 1L;
 
-  public CMMenuItem(String title) {
-    super(title);
-    addActionListener(this);
-  }
-
-  public CMMenuItem(String title, Icon icon) {
+  public CMMenuItem(String title, String toolTip, Icon icon) {
     super();
     setText(title);
     setIcon(icon);
+    setToolTipText(toolTip);
     addActionListener(this);
   }
 }
