@@ -13,7 +13,7 @@ public class ConfigEntity {
   /** 默认的字符串型的value */
   private String value = null;
 
-  /** 值得数据类型是什么 */
+  /** 值的数据类型是什么 */
   private String type = null;
 
   /** 配置项的名字，可以加国际化 */
