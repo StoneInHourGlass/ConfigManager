@@ -1,8 +1,9 @@
-package com.sihg.common.config.ui.menu;
+package com.sihg.common.config.ui.menu.file;
 
 import java.awt.event.ActionEvent;
 
 import com.sihg.common.config.tool.I18n;
+import com.sihg.common.config.ui.menu.CMMenuItem;
 
 public class MenuFileOpenFolder extends CMMenuItem {
 

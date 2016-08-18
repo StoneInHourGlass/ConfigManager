@@ -1,4 +1,4 @@
-package com.sihg.common.config.ui.menu;
+package com.sihg.common.config.ui.menu.file;
 
 import java.awt.event.ActionEvent;
 import java.io.File;
@@ -8,6 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.filechooser.FileFilter;
 
 import com.sihg.common.config.tool.I18n;
+import com.sihg.common.config.ui.menu.CMMenuItem;
 
 public class MenuFileOpen extends CMMenuItem {
 	private static final long serialVersionUID = 1L;

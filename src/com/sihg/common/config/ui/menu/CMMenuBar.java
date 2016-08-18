@@ -5,6 +5,8 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 
 import com.sihg.common.config.tool.I18n;
+import com.sihg.common.config.ui.menu.file.MenuFileNew;
+import com.sihg.common.config.ui.menu.file.MenuFileOpen;
 
 public class CMMenuBar extends JMenuBar {
 
